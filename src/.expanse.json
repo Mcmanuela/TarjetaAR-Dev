@@ -118,6 +118,72 @@
         "name": "ensayo-2-"
       },
       "order": 4.1468835961444555
+    },
+    "dcd33af2-52d5-4231-a75c-116552ff68ea": {
+      "id": "dcd33af2-52d5-4231-a75c-116552ff68ea",
+      "position": [
+        -0.3654417450734216,
+        -0.01840975898690761,
+        -0.06805597527018693
+      ],
+      "rotation": [
+        0.6078141793397711,
+        0,
+        0,
+        0.7940792928880092
+      ],
+      "scale": [
+        0.5872249098886583,
+        0.5872249098886583,
+        0.5872249098886583
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0b391909-d5be-4ac2-98ae-a569a00f9714",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/animacion_ynnaf_logo_.glb"
+        },
+        "animationClip": "animacion ",
+        "loop": true
+      },
+      "name": "animacion_ynnaf_logo_.glb (1)",
+      "order": 7.343285503806668
+    },
+    "6edc4ad0-c05f-4be0-b904-0d99cf352a42": {
+      "id": "6edc4ad0-c05f-4be0-b904-0d99cf352a42",
+      "position": [
+        -0.5686418451708237,
+        0,
+        0
+      ],
+      "rotation": [
+        0.6078141793397711,
+        0,
+        0,
+        0.7940792928880092
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0b391909-d5be-4ac2-98ae-a569a00f9714",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/animacion_ynnaf_licor_.glb"
+        },
+        "animationClip": "animacion",
+        "loop": true
+      },
+      "name": "animacion_ynnaf_licor_.glb",
+      "order": 8.90903457247054
     }
   },
   "spaces": {
