@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 197,
+    "left": 0,
+    "width": 852,
+    "height": 1136,
+    "isRotated": true,
+    "originalWidth": 852,
+    "originalHeight": 1530
+  },
+  "imagePath": "image-targets/ensayo-2-_luminance.jpg",
+  "metadata": null,
+  "name": "ensayo-2-",
+  "resources": {
+    "originalImage": "ensayo-2-_original.jpg",
+    "croppedImage": "ensayo-2-_cropped.jpg",
+    "thumbnailImage": "ensayo-2-_thumbnail.jpg",
+    "luminanceImage": "ensayo-2-_luminance.jpg"
+  },
+  "created": 1790633348263,
+  "updated": 1790633348263
+}
