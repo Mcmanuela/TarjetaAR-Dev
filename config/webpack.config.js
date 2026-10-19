@@ -27,6 +27,7 @@ const config = {
     filename: 'bundle.js',
     path: distPath,
     publicPath: '/',
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -48,6 +49,9 @@ const config = {
         {
           from: path.join(srcPath, 'assets'),
           to: path.join(distPath, 'assets'),
+          globOptions: {
+            ignore: ['**/video ynnaf .mov'],
+          },
           noErrorOnMissing: true,
         },
         {

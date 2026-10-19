@@ -32,7 +32,7 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "disabled",
+          "desktop": "3D",
           "xrCameraType": "world",
           "headset": "disabled",
           "phone": "AR"
@@ -99,91 +99,265 @@
         0
       ],
       "rotation": [
-        -0.6078141793397711,
+        -0.7071067811865475,
         0,
         0,
-        0.7940792928880092
+        0.7071067811865476
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000000000002,
+        1.0000000000000002
       ],
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "tarjeta-animations": {
+          "logoModel": "5f680a2e-def7-4a2c-ae9c-fc35bf75c7a5",
+          "licorModel": "6edc4ad0-c05f-4be0-b904-0d99cf352a42",
+          "videoModel": "39b482bc-67af-4f77-9b4d-0e89d9df121a"
+        }
+      },
       "name": "Image Target",
       "imageTarget": {
         "name": "ensayo-2-"
       },
       "order": 4.1468835961444555
     },
-    "dcd33af2-52d5-4231-a75c-116552ff68ea": {
-      "id": "dcd33af2-52d5-4231-a75c-116552ff68ea",
+    "5f680a2e-def7-4a2c-ae9c-fc35bf75c7a5": {
+      "id": "5f680a2e-def7-4a2c-ae9c-fc35bf75c7a5",
       "position": [
-        -0.3654417450734216,
-        -0.01840975898690761,
-        -0.06805597527018693
+        -0.2953244816848448,
+        -0.7744632717341775,
+        0.01658958375988312
       ],
       "rotation": [
-        0.6078141793397711,
         0,
         0,
-        0.7940792928880092
+        0,
+        1
       ],
       "scale": [
-        0.5872249098886583,
-        0.5872249098886583,
-        0.5872249098886583
+        0.4322965881397228,
+        0.43229658813972294,
+        0.43229658813972294
       ],
       "geometry": null,
-      "material": null,
-      "parentId": "0b391909-d5be-4ac2-98ae-a569a00f9714",
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/animacion_ynnaf_logo_.glb"
+          "asset": "assets/animacion_logo.glb"
         },
-        "animationClip": "animacion ",
+        "animationClip": "Ynnaf_para_texturq_Action.001",
         "loop": true
       },
-      "name": "animacion_ynnaf_logo_.glb (1)",
-      "order": 7.343285503806668
+      "name": "animacion_logo.glb",
+      "order": 2.0327100511352154
     },
     "6edc4ad0-c05f-4be0-b904-0d99cf352a42": {
       "id": "6edc4ad0-c05f-4be0-b904-0d99cf352a42",
       "position": [
         -0.5686418451708237,
-        0,
-        0
+        -0.06805597527018695,
+        -1.511146214165636e-17
       ],
       "rotation": [
-        0.6078141793397711,
+        -0.13170932488844125,
         0,
         0,
-        0.7940792928880092
+        0.9912883807134184
+      ],
+      "scale": [
+        0.4322965881397228,
+        0.43229658813972294,
+        0.43229658813972294
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/animacion_licor.glb"
+        },
+        "animationClip": "animacion",
+        "loop": true
+      },
+      "name": "animacion_licor.glb",
+      "order": 2.2555831418178336
+    },
+    "c6c75fb7-01db-47b5-b605-dce61e6f8a19": {
+      "id": "c6c75fb7-01db-47b5-b605-dce61e6f8a19",
+      "position": [
+        0.7413998207016455,
+        0.5595236216566564,
+        -0.08679999999999989
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
       ],
       "scale": [
         1,
         1,
         1
       ],
-      "geometry": null,
-      "material": null,
-      "parentId": "0b391909-d5be-4ac2-98ae-a569a00f9714",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/animacion_ynnaf_licor_.glb"
-        },
-        "animationClip": "animacion",
-        "loop": true
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "geometry": {
+        "type": "plane",
+        "width": 0.4463,
+        "height": 0.0822
       },
-      "name": "animacion_ynnaf_licor_.glb",
-      "order": 8.90903457247054
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/ubicacion_ynnaf__recortada.png"
+        },
+        "side": "double",
+        "forceTransparent": true
+      },
+      "components": {
+        "open-map-link": {}
+      },
+      "name": "ubicacion_ynnaf_.png",
+      "order": 2.4784562325004518
+    },
+    "f28b9a17-42ab-4ccb-98c1-724f06ad2813": {
+      "id": "f28b9a17-42ab-4ccb-98c1-724f06ad2813",
+      "position": [
+        0.7405443399120885,
+        0.5650000000000001,
+        0.010200000000000127
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "geometry": {
+        "type": "plane",
+        "width": 0.4463,
+        "height": 0.0818
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/wpp_ynnaf__recortada.png"
+        },
+        "side": "double",
+        "forceTransparent": true
+      },
+      "components": {
+        "open-map-link": {}
+      },
+      "name": "wpp_ynnaf_.png",
+      "order": 2.70132932318307
+    },
+    "c2bb855f-1df1-44f1-bde5-498edc9b2ce9": {
+      "id": "c2bb855f-1df1-44f1-bde5-498edc9b2ce9",
+      "position": [
+        0.7414,
+        0.5700000000000001,
+        0.10770000000000016
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "geometry": {
+        "type": "plane",
+        "width": 0.4463,
+        "height": 0.0822
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/ig_ynnaf__recortada.png"
+        },
+        "side": "double",
+        "forceTransparent": true
+      },
+      "components": {
+        "open-instagram-link": {}
+      },
+      "name": "ig_ynnaf_.png",
+      "order": 2.924202413865688
+    },
+    "39b482bc-67af-4f77-9b4d-0e89d9df121a": {
+      "id": "39b482bc-67af-4f77-9b4d-0e89d9df121a",
+      "position": [
+        0.7324312063286171,
+        0.5531972945697405,
+        0.47790476475558075
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "geometry": {
+        "type": "plane",
+        "width": 0.35,
+        "height": 0.6506
+      },
+      "material": {
+        "type": "video",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/video_ynnaf.mp4"
+        }
+      },
+      "videoControls": {
+        "loop": false,
+        "paused": false,
+        "volume": 1,
+        "positional": false,
+        "speed": 1
+      },
+      "components": {
+        "video-tap-toggle": {}
+      },
+      "name": "video_ynnaf.mp4",
+      "order": 3.1470755045483063
     }
   },
   "spaces": {
